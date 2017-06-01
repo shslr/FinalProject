@@ -204,4 +204,90 @@ h2 {
     color: #e1e1e1;
     margin-top: 20px; }
 
+#pricing {
+  height: 300px;
+  background-color: white;
+  width: 100%;
+  float: left; }
+  #pricing p:first-child {
+    margin-top: 100px;
+    margin-left: 100px; }
+  #pricing p:nth-child(2) {
+    margin-top: 50px;
+    margin-left: 100px; }
+  #pricing p {
+    color: #e1e1e1;
+    margin-left: 100px; }
+
+#pricing-bottom {
+  height: 800px;
+  width: 100%;
+  background-image: url(../images/bottomshadow.png);
+  background-repeat: no-repeat;
+  background-position: bottom; }
+
+.prices-left {
+  float: left;
+  height: 500px;
+  width: 350px;
+  margin-left: 225px;
+  margin-top: 100px;
+  background-color: #efeeee; }
+  .prices-left p:first-child {
+    margin-left: 135px;
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 50px; }
+  .prices-left p:nth-child(2) {
+    color: #e1e1e1;
+    margin-left: 100px;
+    font-size: 18px;
+    margin-top: 5px; }
+
+.prices-middle {
+  float: left;
+  height: 500px;
+  width: 350px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 100px;
+  background-color: #efeeee; }
+  .prices-middle p:first-child {
+    margin-left: 135px;
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 50px; }
+  .prices-middle p:nth-child(2) {
+    color: #e1e1e1;
+    margin-left: 105px;
+    font-size: 18px;
+    margin-top: 5px; }
+
+.prices-right {
+  float: left;
+  height: 500px;
+  width: 350px;
+  margin-top: 100px;
+  background-color: #efeeee;
+  background-image: url(../images/thirdshadow.png);
+  background-repeat: no-repeat;
+  background-position: bottom; }
+  .prices-right p:first-child {
+    margin-left: 135px;
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 50px; }
+  .prices-right p:nth-child(2) {
+    color: #e1e1e1;
+    margin-left: 100px;
+    font-size: 18px;
+    margin-top: 5px; }
+  .prices-right button {
+    width: 100%;
+    margin-top: 50px;
+    height: 50px;
+    background-color: #f6f6f6;
+    text-transform: uppercase;
+    color: #aaaaaa; }
+
 /*# sourceMappingURL=styles.css.map */
