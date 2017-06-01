@@ -178,4 +178,30 @@ h2 {
   color: black;
   font-size: 20px; }
 
+#testimonial-left {
+  float: left;
+  width: 60%; }
+  #testimonial-left img {
+    margin-left: 100px; }
+
+#testimonial-right {
+  float: left;
+  width: 40%; }
+  #testimonial-right p:first-child {
+    margin-left: 100px; }
+  #testimonial-right p:nth-child(2) {
+    margin-left: 100px;
+    margin-top: 100px;
+    color: #e1e1e1;
+    font-family: cursive; }
+  #testimonial-right p:nth-child(3) {
+    margin-left: 175px;
+    color: black;
+    font-weight: 700;
+    margin-top: 25px; }
+  #testimonial-right p:nth-child(4) {
+    margin-left: 175px;
+    color: #e1e1e1;
+    margin-top: 20px; }
+
 /*# sourceMappingURL=styles.css.map */
